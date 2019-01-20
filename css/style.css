@@ -467,7 +467,8 @@ ul.navbar-nav li a{
 }
 
 .single-blog{
-	margin-bottom:15px;
+	margin-bottom:35px;
+	padding: 20px;
 }
 
 .single-blog a{
@@ -481,6 +482,63 @@ ul.navbar-nav li a{
 	text-transform:uppercase;
 	color:#00bcd4;
 	font-family: 'Montserrat', sans-serif;
+}
+
+#ranking-cta {
+	background-color: #00bcd4;
+	padding: 10px 20px 10px 20px;
+	color: white;
+	text-shadow: 1px 1px grey;
+	text-align: center;
+	margin: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.404);
+}
+
+#ranking-cta-title {
+	font-size: 24px;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.btn-cta {
+	background: #ffffff none repeat scroll 0 0;
+	border-radius: 0;
+	color: #00bcd4;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	height: 45px;
+	text-align: center;
+	text-transform: uppercase;
+	width: 100%;
+}
+
+.btn-cta:hover {
+	background-color: #f0f0f0; 
+}
+
+.cta-form {
+	height: 45px;
+	border-radius: 0px;
+	background: #f5f5f5;
+	color: #969696;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight:500;
+}
+
+.blog-img {
+	width: auto;
+	height: auto;
+	margin-top: 40px!important;
+	margin-bottom: 50px!important;
+}
+
+.blog-img-home {
+	width: 70%;
+	height: auto;
+	margin-top: 5px!important;
+	margin-bottom: 10px!important;
 }
 
 /*Blog*/
@@ -747,6 +805,18 @@ ul.projects li {
 
 .single-blog{
 	margin-bottom:40px;
+	padding-bottom: 50px;
+	border-bottom: 0.5px solid rgba(0, 0, 0, 0.068);
+}
+
+
+
+.blog-link {
+	color: #00bcd4!important;
+}
+
+.blog-link:hover {
+	text-decoration: line-through;
 }
 
 .blog-info{
@@ -785,6 +855,7 @@ aside{
 }
 
 .right-sidebar{
+	margin-top: 20%;
 	border-left:1px solid #f5f5f5;
 	padding:0 0 0 30px;
 -webkit-box-shadow:inset 1px 0 0 0 rgba(0,0,0,.01);
@@ -825,6 +896,10 @@ ul.cat li, ul.recent li, ul.folio-detail li, ul.contact-info li {
 
 ul.cat li a, ul.folio-detail li a{
 	color:#656565;
+}
+
+.blog-cat:hover {
+	color:#00bcd4!important;
 }
 
 ul.folio-detail li label{
@@ -877,6 +952,8 @@ aside .widgetheading {
 	position: relative;
 	border-bottom: #e9e9e9 1px solid;
 	padding-bottom: 9px;
+	font-size: 22px;
+	font-weight: bold;
 }
 
 ul.cat, ul.recent, ul.folio-detail, ul.contact-info {
@@ -1242,4 +1319,8 @@ form#commentform textarea {
 #get-in {
 	font-size: 50px;
 	margin-bottom: 30px;
+}
+
+.fa-dot-circle {
+	font-size: 9px;
 }
